@@ -1,0 +1,150 @@
+/*------------------------------------------------------------------------------------------*/
+ 
+
+
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    color:rgb(158, 75, 103); ;
+  }
+
+  h3,h5{
+      text-decoration: underline;
+  }
+
+  
+  /*------------------------------------------------------------------------------------------*/
+
+  /*------------------------------------------------------------------------------------------*/
+  Body{
+background-image: url(https://image.freepik.com/free-photo/pink-marble-texture-background-abstract-marble-texture-natural-patterns_41389-205.jpg);
+  }
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------*/
+  img{
+    width: 90%;
+    
+  }
+  /*------------------------------------------------------------------------------------------*/
+
+  /*------------------------------------------------------------------------------------------*/
+  
+  .button{
+  
+    background-color: palevioletred;
+    color: azure;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /*----------------------------------------Table css Starts---------------------------------*/
+  
+
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 10px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+  }
+  
+  #myTable {
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+  }
+  
+  #myTable tr {
+    
+    border-bottom: 1px solid rgb(165, 20, 57);
+  }
+  
+  #myTable tr.header {
+    
+    background-color: #b34c6b;
+    
+  }
+  
+  #myTable tr:hover{
+    background-color: #f7b8cb;
+  }
+
+ /*---------------------------------Table css Ends---------------------------------------*/
+
+
+ /*---------------------------------------Add Function css------------------------------*/
+  
+  .button{
+    background-color: #8f7079;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .button:hover{
+    background-color: rgb(158, 75, 103);
+  }
+
+  P{
+      font-size: x-small;
+  }
+
+.add{
+  background-position: 10px 10px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+/*-------------------------------------------Ends-----------------------------------------------*/
+
+
+
+/*------------------------------------links (start)------------------------------------*/
+ 
+a {
+    color: rgb(244, 250, 245);
+    list-style: none;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  a:visited {
+
+    color:black;
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:yellowgreen;
+  }
+/*--------------------------------------links (end)------------------------------------*/
+
+footer{
+    
+   background-repeat:repeat-x;
+  text-align: center ;
+   
+      
+}
+
+

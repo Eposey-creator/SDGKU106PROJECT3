@@ -1,0 +1,177 @@
+.background{
+    height: 100vh;
+    background-image:url(https://smhttp-ssl-56703.nexcesscdn.net/media/wysiwyg/lensme/Blog/2019/April_2019/Reading_the_Label_of_Makeup.gif);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+ /*---------------------------------------------------------------------------------------*/
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+/*----------------------------------------------------------------------------------------*/
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+   
+  }
+  /*---------------------------------------------------------------------------------------*/
+
+.nav-links,.ul,.li,.a{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    font-size: larger;
+   
+  }
+
+/*------------------------------------links (start)-------------------------------------------*/
+ 
+a {
+    color: rgb(0, 2, 10);
+    list-style: none;
+    font-size: 1.5rem;
+    
+  }
+
+  a:visited {
+
+    color:black;
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:pink;
+  }
+/*--------------------------------------links (end)---------------------------------------*/
+
+/*----------------------------------------button (start)--------------------------------------*/
+  .btn{
+      padding: 30px 120px;
+      border: none;
+      border-radius: 10%;
+      background-image: url("https://th.bing.com/th/id/OIP.WralUVWg_7p0KSc8m8mXqgHaGE?pid=Api&rs=1");
+      display: inline-block;
+      color:rgb(43, 5, 20);
+      font-weight: bold;
+      font-size: 2rem;
+      margin-top: auto;
+      margin-bottom: 1000px;
+      cursor: pointer;
+      margin-left: 185px;
+      border: rgb(172, 19, 50) solid;
+      text-align: center;
+      
+      
+
+      
+  }
+
+  /* changes the color of the Explore button (after click) */
+  .btn[type=button]:hover {
+    background-color:pink
+  }
+  /*----------------------------------------buton (end)--------------------------------------*/
+
+  
+  
+  /*-----------------------------------log (start)-------------------------------------*/
+.log{
+  padding: 30px 120px;
+  border: none;
+  border-radius: 10%;
+  background-color: transparent;
+  display: inline-block;
+  color:rgb(43, 5, 20);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 400px;
+  margin-bottom: 1000px;
+  cursor: pointer;
+  margin-left: -700px;
+  text-align: center;
+  
+  
+  
+}
+
+/*------------------------------------------log (end)--------------------------------------*/
+
+/*----------------span (changes colors of certain letters in slogan---------------------------*/
+ 
+span{
+    color: rgba(64, 160, 9, 0.753);
+    font-size: larger;
+    text-shadow:2px 2px bisque;
+
+}
+
+.input{
+  border:rgb(172, 19, 50) solid; ;
+  width:15vw;
+  height: 2vw;
+  
+}
+
+.btnsrch{
+  width:4vw;
+  height:4vh;
+  background-color:#d8025b;
+  border:0px;
+}
+
+.btnsrch:hover{
+  background-color: #fa70b1;
+}
+/*-------------------------------------------------------------------------------------------*/
+ 
+/*------------------------------responsive portion (starts)----------------------------------*/
+
+@media all and ( min-width:20px) and (max-width:800px){
+    .nav-links{
+        display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    
+    margin-top:-50px ;
+    
+
+    }
+    .log{
+       font-size:2.5rem ; 
+       position: fixed;
+       top: 30%;
+       left: 30%;
+       margin-top: -75px;
+       margin-left: -75px;
+       margin-bottom: -650px;
+    }
+    .btnsrch{
+        display: none;
+    }
+    .nav-logo{
+    display: flex;
+    justify-content:left;
+    position: fixed;
+    margin-top: -500px;
+    margin-left: -700px;
+
+    
+    }
+}
+
+@media (orientation:portrait)and (min-width:50px){
+    .nav-logo{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*------------------------------responsive portion (ends)-------------------------------------*/
